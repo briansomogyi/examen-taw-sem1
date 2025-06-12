@@ -1,17 +1,17 @@
 <template>
   <div class="container mx-auto p-6">
     <div class="grid grid-cols-2 gap-4">
-      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4">
-        <MapSection />
+      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4 overflow-hidden">
+        <MapSection class="w-full h-full" />
       </div>
-      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4">
-        <ContactInfo />
+      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4 overflow-hidden">
+        <ContactInfo class="w-full h-full" />
       </div>
-      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4">
-        <ContactForm />
+      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4 overflow-hidden">
+        <ContactForm class="w-full h-full" />
       </div>
-      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4">
-        <ImageSection />
+      <div class="w-full h-64 flex items-center justify-center bg-gray-100 p-4 overflow-hidden">
+        <ImageSection class="w-full h-full" />
       </div>
     </div>
   </div>
