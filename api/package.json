@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "type": "module",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
